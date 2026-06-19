@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 body{
   margin: 0;
   padding: 0;
@@ -98,3 +99,98 @@ h2 {
   }
   
 }
+=======
+body{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; 
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+  line-height: 1.7;
+  color: #2d3748; 
+  background-color: #f7fafc; 
+}
+section {
+  width: 100%;             
+  padding: 80px 40px;      
+  margin-bottom: 0;        
+}
+
+h1, h2 {
+  color: #1a365d; 
+  margin-bottom: 20px;
+}
+
+h2 {
+  font-size: 2.2rem;
+  
+}
+
+#welcome {
+  background-color: #eddbdb; 
+  display: flex;
+  align-items: center;      
+  justify-content: space-between;
+  gap: 60px;                 
+  border-bottom: 1px solid #e2e8f0;}
+
+.top h1 {
+  font-size: 3rem;
+  color: #2b6cb0;      }      
+
+.top p {
+  font-size: 1.15rem;
+  color: #10132d;
+}
+
+.right {
+  flex: 0.8;                 
+  display: flex;
+  justify-content: center;
+}
+#about {
+  background-color: #edf2f7;
+  text-align: center;        
+}
+
+#about p.center {
+  text-align: center;
+}
+
+#projects {
+  background-color: #f7e0e0; 
+}
+
+#skills {
+  background-color: #deeef7; 
+ 
+}
+#form{
+    background-color: #f7f9f9e2;
+}
+
+@media (max-width: 768px) {
+
+  #welcome {
+    flex-direction: column;
+    text-align: center;
+    gap: 40px;
+  }
+
+  .top h1 {
+    font-size: 2.4rem; 
+  }
+
+  section {
+    padding: 60px 24px; 
+  }
+
+  
+  h2::after {
+    left: 50%;
+    transform: translateX(-50%);
+  }
+}
+>>>>>>> 1ff161ff8df63597974fd5dcf8259311b25e087c
